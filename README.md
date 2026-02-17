@@ -29,6 +29,7 @@ The system:
 - Attack simulation environment for real-time testing
 
 ## 📂 Repository Structure
+'''
 hybrid-cloud-threat-prediction/
 │
 ├── README.md
@@ -58,7 +59,7 @@ hybrid-cloud-threat-prediction/
 └── simulations/
     ├── ntp_amplification/
     ├── tcp_port_scan/
-
+'''
 ## 🔧 Technologies Used
 - Python, Pandas, NumPy, Scikit-learn
 - Azure ML Studio
