@@ -1,0 +1,5 @@
+Captured NTP amplification traffic:
+- Source port: 123
+- Packet count: 3
+- Byte size: 240
+- Amplification ratio observed: 4.2x
