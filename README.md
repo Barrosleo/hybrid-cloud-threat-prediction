@@ -5,10 +5,10 @@
 ██╔══██║██║   ██║██╔══██╗██╔══██╗██║██╔══██╗
 ██║  ██║╚██████╔╝██║  ██║██║  ██║██║██║  ██║
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
-```
+
 Hybrid Cloud Threat Prediction
 Machine Learning for Cyber Threat Detection
-
+```
 # Hybrid Cloud Threat Prediction (Machine Learning)
 
 This project implements a machine-learning–based threat prediction system for hybrid cloud environments.  
