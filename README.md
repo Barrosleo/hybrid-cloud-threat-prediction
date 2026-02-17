@@ -33,9 +33,20 @@ The system:
 hybrid-cloud-threat-prediction/
 │
 ├── README.md
+├── LICENSE
+├── .gitignore
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── ROADMAP.md
+├── TODO.md
+├── model_card.md
+│
 ├── data/
-│   ├── raw/              # small sample only (no large datasets)
+│   ├── README.md
+│   ├── raw/
+│   │   ├── sample_raw.csv
 │   ├── processed/
+│       ├── sample_processed.csv
 │
 ├── notebooks/
 │   ├── 01_data_preprocessing.ipynb
@@ -47,18 +58,37 @@ hybrid-cloud-threat-prediction/
 │   ├── preprocessing.py
 │   ├── train_model.py
 │   ├── evaluate_model.py
+│   ├── score.py                 # Azure ML inference script
+│   ├── run_pipeline.py          # full pipeline orchestrator
 │
 ├── models/
 │   ├── random_forest.pkl
 │   ├── gradient_boosting.pkl
+│   ├── README.md
 │
 ├── architecture/
 │   ├── hybrid_cloud_diagram.png
 │   ├── ml_pipeline_diagram.png
+│   ├── README.md
 │
-└── simulations/
-    ├── ntp_amplification/
-    ├── tcp_port_scan/
+├── simulations/
+│   ├── ntp_amplification/
+│   │   ├── sample_logs.txt
+│   │   ├── simulation_steps.md
+│   ├── tcp_port_scan/
+│       ├── nmap_output.txt
+│       ├── simulation_steps.md
+│
+├── deployment/
+│   ├── azure_deployment.md
+│   ├── environment.yml
+│   ├── sample_request.json
+│
+├── tests/
+│   ├── test_preprocessing.py
+│   ├── test_training.py
+│
+└── requirements.txt
 ```
 ## 🔧 Technologies Used
 - Python, Pandas, NumPy, Scikit-learn
