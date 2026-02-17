@@ -1,0 +1,7 @@
+Starting Nmap 7.94
+Nmap scan report for 10.0.0.5
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+80/tcp    open     http
+443/tcp   open     https
+51514/tcp filtered unknown
