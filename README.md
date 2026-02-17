@@ -29,7 +29,35 @@ The system:
 - Attack simulation environment for real-time testing
 
 ## 📂 Repository Structure
-(Insert the folder tree here)
+hybrid-cloud-threat-prediction/
+│
+├── README.md
+├── data/
+│   ├── raw/              # small sample only (no large datasets)
+│   ├── processed/
+│
+├── notebooks/
+│   ├── 01_data_preprocessing.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_model_training.ipynb
+│   ├── 04_model_evaluation.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── train_model.py
+│   ├── evaluate_model.py
+│
+├── models/
+│   ├── random_forest.pkl
+│   ├── gradient_boosting.pkl
+│
+├── architecture/
+│   ├── hybrid_cloud_diagram.png
+│   ├── ml_pipeline_diagram.png
+│
+└── simulations/
+    ├── ntp_amplification/
+    ├── tcp_port_scan/
 
 ## 🔧 Technologies Used
 - Python, Pandas, NumPy, Scikit-learn
