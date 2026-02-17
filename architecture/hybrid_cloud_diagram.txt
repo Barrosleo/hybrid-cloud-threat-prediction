@@ -1,0 +1,24 @@
+                +---------------------------+
+                |     On-Prem Network       |
+                |  (Traffic Generation VM)  |
+                +-------------+-------------+
+                              |
+                              | Encrypted Traffic
+                              |
+                +-------------v-------------+
+                |     Azure VNet            |
+                |  (Data Capture VM)        |
+                +-------------+-------------+
+                              |
+                              | Preprocessed Data
+                              |
+                +-------------v-------------+
+                |   Azure ML Studio         |
+                |  Model Training + Endpoint|
+                +-------------+-------------+
+                              |
+                              | JSON Prediction Requests
+                              |
+                +-------------v-------------+
+                |   Client / API Consumer   |
+                +---------------------------+
