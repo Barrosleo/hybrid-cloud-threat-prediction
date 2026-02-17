@@ -1,0 +1,16 @@
+Raw Data
+   |
+   v
+Preprocessing (cleaning, encoding, normalization)
+   |
+   v
+Feature Engineering (importance, selection)
+   |
+   v
+Model Training (RF, SVM, GB)
+   |
+   v
+Evaluation (Accuracy, F1, AU-ROC)
+   |
+   v
+Deployment (Azure ML Endpoint)
