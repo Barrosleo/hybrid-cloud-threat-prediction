@@ -44,6 +44,8 @@ az ml online-deployment create \
   --endpoint-name threat-detection-endpoint \
   --model rf-threat-model:1 \
   --environment rf-env:1 \
+  --code src/ \
+  --entry-script score.py \
   --instance-type Standard_DS2_v2 \
   --instance-count 1
 ```
