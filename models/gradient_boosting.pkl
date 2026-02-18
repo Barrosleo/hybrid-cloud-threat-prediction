@@ -1,0 +1,9 @@
+This is a placeholder file.  
+The actual Gradient Boosting model (.pkl) is not included in the repository due to size and security considerations.
+
+To generate this file, run:
+
+python src/train_model.py --model gradient_boosting
+
+The trained model will be saved automatically to:
+models/gradient_boosting.pkl
